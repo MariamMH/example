@@ -1,0 +1,31 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+
+    border: 1px ;
+    margin: 10px;
+    text-align: center;
+}
+.value{
+    margin: 50px;
+    font-size: 20px;
+}
+.shadow{
+    box-shadow: 5px 10px black ;
+    
+}
